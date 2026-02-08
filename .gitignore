@@ -1,0 +1,8 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Claude local state
+.claude/*.local.md
+__pycache__/
+*.pyc

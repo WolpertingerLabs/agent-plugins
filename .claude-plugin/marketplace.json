@@ -1,0 +1,156 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "claude-plugins",
+  "description": "Curated collection of Claude Code plugins: third-party MCP integrations and custom development tools.",
+  "owner": {
+    "name": "Cybourgeoisie",
+    "email": "ben@cybourgeoisie.com"
+  },
+  "plugins": [
+    {
+      "name": "ralph-loop",
+      "description": "Continuous self-referential AI loops for interactive iterative development, implementing the Ralph Wiggum technique.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Anthropic",
+        "email": "support@anthropic.com"
+      },
+      "source": "./plugins/ralph-loop",
+      "category": "development"
+    },
+    {
+      "name": "playwright",
+      "description": "Browser automation and end-to-end testing MCP server by Microsoft.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Microsoft"
+      },
+      "source": "./external_plugins/playwright",
+      "category": "testing"
+    },
+    {
+      "name": "github",
+      "description": "Official GitHub MCP server for repository management.",
+      "version": "1.0.0",
+      "author": {
+        "name": "GitHub"
+      },
+      "source": "./external_plugins/github",
+      "category": "development"
+    },
+    {
+      "name": "gitlab",
+      "description": "GitLab DevOps platform integration.",
+      "version": "1.0.0",
+      "author": {
+        "name": "GitLab"
+      },
+      "source": "./external_plugins/gitlab",
+      "category": "development"
+    },
+    {
+      "name": "slack",
+      "description": "Slack workspace integration for searching messages and staying connected with team communications.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Slack"
+      },
+      "source": "./external_plugins/slack",
+      "category": "productivity"
+    },
+    {
+      "name": "asana",
+      "description": "Asana project management integration.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Asana"
+      },
+      "source": "./external_plugins/asana",
+      "category": "productivity"
+    },
+    {
+      "name": "linear",
+      "description": "Linear issue tracking integration.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Linear"
+      },
+      "source": "./external_plugins/linear",
+      "category": "productivity"
+    },
+    {
+      "name": "stripe",
+      "description": "Stripe development plugin with best practices, test card references, and error code explanations.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Stripe",
+        "url": "https://stripe.com"
+      },
+      "source": "./external_plugins/stripe",
+      "category": "development"
+    },
+    {
+      "name": "supabase",
+      "description": "Supabase MCP integration for database operations, authentication, storage, and real-time subscriptions.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Supabase"
+      },
+      "source": "./external_plugins/supabase",
+      "category": "database"
+    },
+    {
+      "name": "firebase",
+      "description": "Google Firebase MCP integration for Firestore, authentication, cloud functions, hosting, and storage.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Google"
+      },
+      "source": "./external_plugins/firebase",
+      "category": "database"
+    },
+    {
+      "name": "context7",
+      "description": "Upstash Context7 MCP server for up-to-date documentation lookup.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Upstash"
+      },
+      "source": "./external_plugins/context7",
+      "category": "development",
+      "tags": ["community-managed"]
+    },
+    {
+      "name": "serena",
+      "description": "Semantic code analysis MCP server for intelligent code understanding and refactoring.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Oraios"
+      },
+      "source": "./external_plugins/serena",
+      "category": "development",
+      "tags": ["community-managed"]
+    },
+    {
+      "name": "greptile",
+      "description": "AI code review agent for GitHub and GitLab.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Greptile",
+        "url": "https://greptile.com"
+      },
+      "source": "./external_plugins/greptile",
+      "category": "development"
+    },
+    {
+      "name": "laravel-boost",
+      "description": "Laravel development toolkit MCP server.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Laravel"
+      },
+      "source": "./external_plugins/laravel-boost",
+      "category": "development"
+    }
+  ]
+}
