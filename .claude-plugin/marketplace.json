@@ -2,19 +2,11 @@
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "claude-plugins",
   "description": "Curated collection of custom Claude Code plugins and development tools.",
-  "owner": {
-    "name": "Cybourgeoisie",
-    "email": "ben@cybourgeoisie.com"
-  },
   "plugins": [
     {
       "name": "ralph-loop",
       "description": "Continuous self-referential AI loops for interactive iterative development, implementing the Ralph Wiggum technique.",
       "version": "1.0.0",
-      "author": {
-        "name": "Anthropic",
-        "email": "support@anthropic.com"
-      },
       "source": "./plugins/ralph-loop",
       "category": "development"
     },
@@ -22,10 +14,6 @@
       "name": "playwright-cli",
       "description": "Automates browser interactions for web testing, form filling, screenshots, and data extraction.",
       "version": "1.0.0",
-      "author": {
-        "name": "Cybourgeoisie",
-        "email": "ben@cybourgeoisie.com"
-      },
       "source": "./plugins/playwright-cli",
       "category": "development"
     }

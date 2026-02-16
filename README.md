@@ -48,7 +48,7 @@ Each plugin follows the Claude Code plugin spec:
 ```
 plugin-name/
 ├── .claude-plugin/
-│   └── plugin.json          # Manifest (name, description, author)
+│   └── plugin.json          # Manifest (name, description)
 ├── .mcp.json                # MCP server config (optional)
 ├── commands/                # Slash commands (optional)
 │   └── command-name.md
@@ -66,11 +66,7 @@ plugin-name/
 ## Adding New Plugins
 
 1. Create a directory under `plugins/`
-2. Add `.claude-plugin/plugin.json` with name, description, author
+2. Add `.claude-plugin/plugin.json` with name, description
 3. Add `.mcp.json` for MCP server config (if applicable)
 4. Add `commands/`, `skills/`, `hooks/`, `agents/` as needed
 5. Update `.claude-plugin/marketplace.json` with the new entry
-
-## License
-
-MIT licensed.
