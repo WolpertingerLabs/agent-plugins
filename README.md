@@ -9,6 +9,7 @@ A standalone, portable collection of custom Claude Code plugins and development 
 | Plugin | Type | Description |
 |--------|------|-------------|
 | **ralph-loop** | Hooks + Commands | Iterative self-referential AI development loops (Ralph Wiggum technique) |
+| **playwright-cli** | Skill | Browser automation for web testing, form filling, screenshots, and data extraction |
 
 ## Installation
 
