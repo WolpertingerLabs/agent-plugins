@@ -6,6 +6,22 @@ allowed-tools: Bash(playwright-cli:*)
 
 # Browser Automation with playwright-cli
 
+## Prerequisites
+
+Before running any commands, check if `playwright-cli` is installed:
+
+```bash
+playwright-cli --help
+```
+
+If the command is not found, ask the user for permission to install it:
+
+```bash
+npm install -g @playwright/cli@latest
+```
+
+Do not proceed with any `playwright-cli` commands until it is confirmed installed.
+
 ## Quick start
 
 ```bash
