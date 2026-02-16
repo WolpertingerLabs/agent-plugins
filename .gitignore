@@ -6,3 +6,6 @@ Thumbs.db
 .claude/*.local.md
 __pycache__/
 *.pyc
+
+# Plugins
+.playwright-cli
