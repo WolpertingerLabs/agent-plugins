@@ -16,6 +16,13 @@
       "version": "1.0.0",
       "source": "./plugins/playwright-cli",
       "category": "development"
+    },
+    {
+      "name": "chess-opening-trainer",
+      "description": "Conversational chess opening blunder explorer powered by the Lichess API. Identifies common blunders in specific openings using real game statistics and engine evaluations, then walks through punishment lines with unicode board positions.",
+      "version": "1.0.0",
+      "source": "./plugins/chess-opening-trainer",
+      "category": "development"
     }
   ]
 }
