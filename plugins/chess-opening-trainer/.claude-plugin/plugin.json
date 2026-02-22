@@ -1,0 +1,4 @@
+{
+  "name": "chess-opening-trainer",
+  "description": "Conversational chess opening blunder explorer powered by the Lichess API. Identifies common blunders in specific openings using real game statistics and engine evaluations, then walks through punishment lines with unicode board positions."
+}

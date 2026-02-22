@@ -10,6 +10,7 @@ A standalone, portable collection of custom Claude Code plugins and development 
 |--------|------|-------------|
 | **ralph-loop** | Hooks + Commands | Iterative self-referential AI development loops (Ralph Wiggum technique) |
 | **playwright-cli** | Skill | Browser automation for web testing, form filling, screenshots, and data extraction |
+| **chess-opening-trainer** | Agent | Conversational chess opening blunder explorer powered by the Lichess API |
 
 ## Installation
 
