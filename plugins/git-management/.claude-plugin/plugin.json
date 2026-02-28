@@ -1,0 +1,4 @@
+{
+  "name": "git-management",
+  "description": "Git workflow automation commands for building, committing, pushing, and creating pull requests in a single pipeline."
+}

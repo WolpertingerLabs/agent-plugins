@@ -23,6 +23,20 @@
       "version": "1.0.0",
       "source": "./plugins/chess-opening-trainer",
       "category": "development"
+    },
+    {
+      "name": "git-management",
+      "description": "Git workflow automation commands for building, committing, pushing, and creating pull requests in a single pipeline.",
+      "version": "1.0.0",
+      "source": "./plugins/git-management",
+      "category": "development"
+    },
+    {
+      "name": "code-management",
+      "description": "Language-specific build, lint, and format commands. Detects project type and runs the appropriate quality checks before committing.",
+      "version": "1.0.0",
+      "source": "./plugins/code-management",
+      "category": "development"
     }
   ]
 }

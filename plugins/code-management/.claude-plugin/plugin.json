@@ -1,0 +1,4 @@
+{
+  "name": "code-management",
+  "description": "Language-specific build, lint, and format commands. Detects project type and runs the appropriate quality checks before committing."
+}
