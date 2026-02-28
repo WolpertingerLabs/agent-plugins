@@ -1,14 +1,14 @@
 ---
 name: lint-nodejs
 description: Install dependencies, build, lint, and format a Node.js project. Only runs steps whose scripts are defined in package.json.
-argument-hint: "[install-deps]"
+argument-hint: "[skip-install]"
 ---
 
 ## Arguments
 
 `$ARGUMENTS`
 
-- If the arguments contain `install-deps`, run step 1 (Install dev dependencies). Otherwise, **skip step 1** entirely.
+- If the arguments contain `skip-install`, **skip step 1** (Install dev dependencies). Otherwise, run step 1 by default.
 
 ## Precondition
 
@@ -19,7 +19,7 @@ Verify this is a **Node.js project** by checking for a `package.json` in the rep
 
 ## Steps
 
-1. **Install dev dependencies** (only if `install-deps` is passed):
+1. **Install dev dependencies** (runs by default; skip if `skip-install` is passed):
 
    ```
    npm install --include=dev

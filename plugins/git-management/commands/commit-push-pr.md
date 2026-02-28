@@ -1,14 +1,14 @@
 ---
 name: commit-push-pr
 description: Run the full lint, commit, push, and PR pipeline. Stop immediately if any step fails.
-argument-hint: "[install-deps]"
+argument-hint: "[skip-install]"
 ---
 
 ## Arguments
 
 `$ARGUMENTS`
 
-- Pass arguments through to any lint commands that are invoked (e.g. `install-deps`).
+- Pass arguments through to any lint commands that are invoked (e.g. `skip-install`).
 
 ## Step 1 — Run lint/build/format via code-management (if available)
 
