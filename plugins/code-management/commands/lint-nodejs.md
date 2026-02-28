@@ -53,3 +53,4 @@ Verify this is a **Node.js project** by checking for a `package.json` in the rep
 
 - If any step fails, **stop immediately**, diagnose the issue, fix it, and restart from the failed step.
 - Only run steps whose corresponding npm scripts actually exist in `package.json`. Do not assume any script is present.
+- If this command was invoked from another command (e.g. `/commit-push-pr`), **return to the calling command** and continue with its remaining steps once this command completes.
