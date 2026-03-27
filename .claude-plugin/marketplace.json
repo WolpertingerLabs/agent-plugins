@@ -37,6 +37,20 @@
       "version": "1.0.0",
       "source": "./plugins/code-management",
       "category": "development"
+    },
+    {
+      "name": "deep-research",
+      "description": "Deep research plugin that investigates topics thoroughly using web search, dispatches parallel research agents for subtopics, asks follow-up questions, and produces a cited markdown report with a companion citations file.",
+      "version": "1.0.0",
+      "source": "./plugins/deep-research",
+      "category": "research"
+    },
+    {
+      "name": "exec-guard",
+      "description": "Pre-tool-use guardrails that block agents from reading gitignored files and running prohibited programs. Configurable deny list for programs like supabase, terraform, etc.",
+      "version": "1.0.0",
+      "source": "./plugins/exec-guard",
+      "category": "development"
     }
   ]
 }
