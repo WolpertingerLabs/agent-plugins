@@ -1,0 +1,4 @@
+{
+  "name": "deep-research",
+  "description": "Deep research plugin that investigates topics thoroughly using web search, dispatches parallel research agents for subtopics, asks follow-up questions, and produces a cited markdown report with a companion citations file."
+}
