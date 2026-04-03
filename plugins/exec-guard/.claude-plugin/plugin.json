@@ -1,4 +1,0 @@
-{
-  "name": "exec-guard",
-  "description": "Pre-tool-use guardrails that block reading gitignored files and running prohibited programs."
-}

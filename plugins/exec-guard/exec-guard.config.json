@@ -1,7 +1,0 @@
-{
-  "prohibited_programs": [
-    "supabase"
-  ],
-  "gitignore_action": "ask",
-  "prohibited_program_action": "deny"
-}
